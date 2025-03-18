@@ -86,8 +86,4 @@ bin/
 Thumbs.db
 .DS_Store
 
-# Other
-/libmysyslog-text/
-/libmysyslog-json/
-/libmysyslog-client/
-/libmysyslog-daemon/
+

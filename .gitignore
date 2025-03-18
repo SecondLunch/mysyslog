@@ -50,3 +50,44 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Compiled object files
+*.o
+*.ko
+*.so
+*.a
+
+# Executables
+*.exe
+*.out
+*.elf
+
+# Editor/IDE artifacts
+.*.swp
+*~
+*.dSYM/
+.vscode/ # Если используете VS Code
+.idea/   # Если используете IntelliJ/CLion
+*.bak
+*.tmp
+
+# Build artifacts
+build/
+obj/
+bin/
+
+# Debug files
+*.dgb
+
+# Log files
+*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Other
+/libmysyslog-text/
+/libmysyslog-json/
+/libmysyslog-client/
+/libmysyslog-daemon/
